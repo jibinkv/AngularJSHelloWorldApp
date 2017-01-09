@@ -15,7 +15,6 @@
 		}));
 
 		it('should render top nav to dom', function(){
-			console.log(element);
 			expect(element.find('ul').length > 0).toBe(true);
 			expect(element.find('li').length > 0).toBe(true);
 		});
