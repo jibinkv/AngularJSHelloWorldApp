@@ -8,7 +8,7 @@
 	function topNav(){
 		var directive = {
 			link: link,
-			templateUrl: 'app/components/top-nav.html',
+			templateUrl: 'app/components/top-nav/top-nav.html',
 			restrict: 'EA'
 		}
 		return directive;
